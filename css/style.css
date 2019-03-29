@@ -1,4 +1,70 @@
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
 body {
   background-color: #dadada;
   font-size: 10px;
 }
+.baku{
+  background-image: url(/images/baku.jpg);
+  background-size: cover;
+  /*background-position:center;
+	background-repeat:no-repeat;*/
+}
+
+.london{
+  background-image: url(/images/london.png);
+  background-size: cover;
+}
+
+.madrid{
+  background-image: url(/images/madrid.jpg);
+  background-size: cover;
+
+}
+
+.rome{
+  background-image: url(/images/rome.jpg);
+  background-size: cover;
+}
+
+.preview{
+  height:300px;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.title{
+  font-size: 23px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding:20px;
+}
+h1{
+  font-size: 23px;
+  padding: 20px;
+
+}
+
+@media screen and (min-width: 575px){
+  .preview{width:40%;
+  display: inline-grid;
+  margin-bottom:5px;
+
+
+
+}}
+
+@media screen and (min-width: 991px){
+  .preview{width:20%;
+  display: inline-grid;
+  margin:5px;
+
+
+}}
