@@ -9,25 +9,24 @@ body {
   font-size: 10px;
 }
 .baku{
-  background-image: url(/images/baku.jpg);
+  background-image: url(../images/baku.jpg);
   background-size: cover;
-  /*background-position:center;
-	background-repeat:no-repeat;*/
+
 }
 
 .london{
-  background-image: url(/images/london.png);
+  background-image: url(../images/london.png);
   background-size: cover;
 }
 
 .madrid{
-  background-image: url(/images/madrid.jpg);
+  background-image: url(../images/madrid.jpg);
   background-size: cover;
 
 }
 
 .rome{
-  background-image: url(/images/rome.jpg);
+  background-image: url(../images/rome.jpg);
   background-size: cover;
 }
 
@@ -53,18 +52,26 @@ h1{
 }
 
 @media screen and (min-width: 575px){
+  .container{
+    margin:auto;
+  }
+
   .preview{width:40%;
-  display: inline-grid;
-  margin-bottom:5px;
+  display: inline-block;}
+
+  }
 
 
 
-}}
+
+
 
 @media screen and (min-width: 991px){
+  .container{
+    margin:auto;
+  }
+
   .preview{width:20%;
-  display: inline-grid;
-  margin:5px;
+  display: inline-block;}
 
-
-}}
+  }
